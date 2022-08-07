@@ -77,7 +77,7 @@ function drawBattery() {
 function drawRocket() {
   let Rocket = getRocketSequences();
   g.clearRect(5, 62, 63, 115);
-  g.setColor(0, 255, 255);
+  g.setColor(255, 255, 255);
   g.drawRect(5, 62, 63, 115);
   g.fillRect(5, 62, 63, 115);
   g.drawImage(Rocket[rocketSequence], 5, 65, { scale: 0.7 });
@@ -123,7 +123,7 @@ function draw() {
 
   g.reset();
   g.clear();
-  g.setColor(0, 255, 255);
+  g.setColor(255, 255, 255);
   g.fillRect(0, 0, g.getWidth(), g.getHeight());
   let background = getBackgroundImage();
   g.drawImage(background, 0, 0, { scale: 1 });
