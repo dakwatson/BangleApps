@@ -56,7 +56,7 @@ function clearIntervals() {
 function drawClock() {
   g.setFont("7x11Numeric7Seg", 3);
   g.clearRect(80, 57, 170, 96);
-  g.setColor(0, 255, 255);
+  g.setColor(255, 255, 255);
   g.drawRect(80, 57, 170, 96);
   g.fillRect(80, 57, 170, 96);
   g.setColor(0, 0, 0);
